@@ -1,0 +1,112 @@
+header {
+  max-width: 1550px;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .banner-bg #banner-img {
+  z-index: -1;
+}
+
+header .banner-bg .logo {
+  top: 2vw;
+  left: 4vw;
+}
+
+header .banner-bg .utilities {
+  top: 2vw;
+  right: 3.9vw;
+}
+
+header .banner-bg .tagline-container {
+  background: rgba(0, 0, 0, 0.8);
+  right: 15vw;
+  bottom: 12vw;
+  max-width: 650px;
+}
+
+header .banner-bg .tagline-container .heading {
+  font-size: 2.7rem;
+}
+
+header .banner-bg .tagline-container .description {
+  margin-top: 1em;
+  max-width: 550px;
+  font-size: 1.1em;
+}
+
+header .solid-bg {
+  background: #835fa8;
+}
+
+header .solid-bg .solid-bg-container {
+  height: 30vw;
+}
+
+header .solid-bg .tagline-2-container {
+  z-index: 1;
+  top: 5vw;
+}
+
+header .solid-bg .tagline-2-container .heading-text {
+  max-width: 500px;
+}
+
+header .solid-bg .tagline-2-container .heading {
+  font-size: 2rem;
+}
+
+header .solid-bg .tagline-2-container .description {
+  margin-top: 1em;
+  max-width: 550px;
+  font-size: 1em;
+}
+
+header .solid-bg .tagline-2-container .button {
+  background: #3dd2ae;
+  padding: 0.5em 1.3em;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+header .solid-bg .phone-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+header .solid-bg .messages-bg {
+  position: absolute;
+  right: 380px;
+  bottom: 0;
+}
+
+header .solid-bg-white {
+  background: #f4f8fb;
+}
+
+header .solid-bg-white .card .heading {
+  font-size: 1.5rem;
+}
+
+header .solid-bg-white .card .subheading {
+  color: #9398a1;
+}
+
+header .solid-bg-white .card .description {
+  margin-top: 1em;
+  max-width: 550px;
+  font-size: 1em;
+}
+
+header .solid-bg-white .card .button {
+  background: #3dd2ae;
+  padding: 0.5em 1.3em;
+  display: inline-block;
+  margin-top: 1em;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

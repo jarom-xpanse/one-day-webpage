@@ -1,0 +1,15 @@
+{
+  "name": "Tork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss build tailwindSrc.css -o tailwindDist.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.4.4"
+  }
+}

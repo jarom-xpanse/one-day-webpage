@@ -1,0 +1,147 @@
+header {
+    max-width: 1550px;
+    // margin: 0 auto;
+    // margin-left: auto;
+    // margin-right: auto;
+    .container {
+        // border: 1px dashed blue;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .banner-bg {
+        // background-image: url('img/banner-bg.jpg');
+        // height: 867px;
+        // background-size: cover;
+        // background-position: center;
+        #banner-img {
+            // border: 2px solid red;
+            z-index: -1;
+        }
+        .logo {
+            top: 2vw;
+            left: 4vw;
+            // border: 2px solid red;
+        }
+    
+    
+        
+    
+        .utilities {
+            // border: 2px solid red;
+            top: 2vw;
+            right: 3.9vw;
+        }
+    
+        .tagline-container {
+            background: rgba(0, 0, 0,0.8);
+            // display: inline-block;
+            right: 15vw;
+            bottom: 12vw;
+            max-width: 650px;
+    
+            .heading {
+                font-size: 2.7rem;
+                // border: 1px solid red;
+            }
+            .description {
+                margin-top: 1em;
+                max-width: 550px;
+                // border: 1px solid red;
+                font-size: 1.1em;
+            }
+    
+        }
+
+    }
+
+    .solid-bg {
+        background: #835fa8;
+        // height: 30vw;
+        // max-height: 500px;
+        // max-width: 1550px;
+        .solid-bg-container {
+            // border: 1px solid orange;
+            height: 30vw;
+        }
+        .tagline-2-container {
+            // border: 1px solid red;
+            z-index: 1;
+            top: 5vw;
+            .heading-text {
+                max-width: 500px;
+            }
+            .heading {
+                font-size: 2rem;
+                // border: 1px solid red;
+            }
+            .description {
+                margin-top: 1em;
+                max-width: 550px;
+                // border: 1px solid red;
+                font-size: 1em;
+            }
+            .button {
+                background: #3dd2ae;
+                padding: 0.5em 1.3em;
+                // border-radius: 1em;
+                display: inline-block;
+                margin-top: 1em;
+            }
+
+        }
+        .phone-bg {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .messages-bg {
+            position: absolute;
+            right: 380px;
+            bottom: 0;
+        }
+
+    }
+    .solid-bg-white {
+        background: #f4f8fb;
+        // height: 540px;
+
+        .cards {
+            // border: 1px solid red;
+
+        }
+        .card {
+            // border: 1px dashed red;
+            .heading {
+                font-size: 1.5rem;
+                // border: 1px solid red;
+            }
+            .subheading {
+                color: #9398a1;
+            }
+            .description {
+                margin-top: 1em;
+                max-width: 550px;
+                // border: 1px solid red;
+                font-size: 1em;
+            }
+            .button {
+                background: #3dd2ae;
+                padding: 0.5em 1.3em;
+                // border-radius: 1em;
+                display: inline-block;
+                margin-top: 1em;
+                color: white;
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
+
+}
