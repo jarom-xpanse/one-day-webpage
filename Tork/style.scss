@@ -182,11 +182,18 @@ main {
             }
             .webpage {
                 .webpage-link {
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     display: inline-block;
                 }
                 .button {
                     border: 1px solid white;
+                }
+                .translate-xy-50 {
+                    transform: translate(-50%, -50%);
+                }
+                .ty-50 {
+                    top: 50%;
+                    left: 50%;
                 }
             }
         }

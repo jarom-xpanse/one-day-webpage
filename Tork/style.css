@@ -158,12 +158,21 @@ main .main-dark .featured-container .description {
 }
 
 main .main-dark .featured-container .webpage .webpage-link {
-  border: 1px solid red;
   display: inline-block;
 }
 
 main .main-dark .featured-container .webpage .button {
   border: 1px solid white;
+}
+
+main .main-dark .featured-container .webpage .translate-xy-50 {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .main-dark .featured-container .webpage .ty-50 {
+  top: 50%;
+  left: 50%;
 }
 
 main .main-dark .cards-container {
