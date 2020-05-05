@@ -294,12 +294,21 @@ main .main-grid .bg1 {
   background: #f4f8fb;
 }
 
-main .main-grid .bg2 {
+main .main-grid .video-description {
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 3 / 2 / 4 / 3;
+}
+
+main .main-grid .video-description .cont {
+  max-width: 460px;
+}
+
+main .main-grid .video-description .details .comments {
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
 }
 
 main .main-grid .img2 {
@@ -345,5 +354,30 @@ main .main-grid .img3 img {
 footer {
   max-width: 1550px;
   background: #1a2124;
+}
+
+footer .subscribe-input {
+  max-width: 470px;
+  height: 50px;
+}
+
+footer .subscribe-input .input {
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding: 1em;
+}
+
+footer .subscribe-input .icon {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 1em;
+  background: #835fa8;
+}
+
+footer .links-ul {
+  margin-top: 1em;
+  line-height: 1.75em;
 }
 /*# sourceMappingURL=style.css.map */

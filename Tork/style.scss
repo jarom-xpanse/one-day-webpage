@@ -295,9 +295,16 @@ main {
             grid-area: 2 / 1 / 4 / 2;
             background: #f4f8fb;
         }
-        .bg2 {
+        .video-description {
             // border: 1px solid blue;
             grid-area: 3 / 2 / 4 / 3;
+            .cont {
+                max-width: 460px;
+            }
+            .details .comments {
+                // border: 1px solid red;
+                transform: translateY(6px);
+            }
         }
         .img2 {
             // border: 2px solid orange;
@@ -337,4 +344,30 @@ main {
 footer {
     max-width: $maxW;
     background: #1a2124;
+
+    .subscribe-input {
+        // border: 1px solid red;
+        max-width: 470px;
+        height: 50px;
+
+        .input {
+            width: 100%;
+            height: 100%;
+            color: black;
+            padding: 1em;
+        }
+        .icon {
+            // border: 1px solid red;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            padding: 1em;
+            background: #835fa8;
+        }
+    }
+    .links-ul {
+        margin-top: 1em;
+        line-height: 1.75em;
+    }
+
 }
