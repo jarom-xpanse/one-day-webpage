@@ -113,12 +113,24 @@ header .solid-bg .phone-bg {
   position: absolute;
   right: 0;
   bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-header .solid-bg .messages-bg {
-  position: absolute;
-  right: 380px;
+header .solid-bg .phone-bg .phone {
+  width: 21vw;
+}
+
+header .solid-bg .phone-bg .messages {
+  position: relative;
+  width: 15vw;
+}
+
+header .solid-bg .phone-bg .messages img {
   bottom: 0;
+  right: 0;
+  position: absolute;
 }
 
 header .solid-bg-white {

@@ -133,12 +133,34 @@ header {
             position: absolute;
             right: 0;
             bottom: 0;
+            display: flex;
+
+            // z-index: 1;
+            .phone {
+                width: 21vw;
+
+            }
+            .messages {
+                // border: 1px solid red;
+                position: relative;
+                width: 15vw;
+
+                img {
+                    // border: 1px solid red;
+                    bottom: 0;
+                    right: 0;
+                    position: absolute;
+                }
+            }
         }
-        .messages-bg {
-            position: absolute;
-            right: 380px;
-            bottom: 0;
-        }
+        // .messages-bg {
+        //     position: absolute;
+        //     right: 380px;
+        //     bottom: 0;
+        //     img {
+        //         width: 15vw;
+        //     }
+        // }
 
     }
     .solid-bg-white {
