@@ -5,6 +5,9 @@ $maxW: 1550px;
     max-width: 1200px;
     margin: 0 auto;
 }
+input:focus {
+    outline: none;
+}
 header {
     max-width: $maxW;
 

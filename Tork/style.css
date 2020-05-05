@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+input:focus {
+  outline: none;
+}
+
 header {
   max-width: 1550px;
 }
