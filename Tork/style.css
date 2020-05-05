@@ -221,15 +221,9 @@ main .main-grid {
   -ms-grid-rows: 35fr 29fr 19fr 29fr 18fr;
       grid-template-rows: 35fr 29fr 19fr 29fr 18fr;
   min-height: 500px;
-  border: 1px solid red;
-}
-
-main .main-grid > * {
-  border: 1px dashed red;
 }
 
 main .main-grid .connectivity {
-  border: 1px solid blue;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
@@ -238,8 +232,20 @@ main .main-grid .connectivity {
   background: #e9eef1;
 }
 
+main .main-grid .connectivity .cont {
+  max-width: 500px;
+}
+
+main .main-grid .connectivity .heading {
+  font-size: 1.5rem;
+}
+
+main .main-grid .connectivity .description {
+  max-width: 550px;
+  font-size: 1em;
+}
+
 main .main-grid .img1 {
-  border: 1px solid blue;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 3;
@@ -249,7 +255,6 @@ main .main-grid .img1 {
 }
 
 main .main-grid .vid {
-  border: 1px solid blue;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   -ms-grid-column: 2;
@@ -261,7 +266,6 @@ main .main-grid .vid {
 }
 
 main .main-grid .latest-news {
-  border: 1px solid blue;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   -ms-grid-column: 3;
@@ -270,8 +274,18 @@ main .main-grid .latest-news {
   background: #835fa8;
 }
 
+main .main-grid .latest-news .cont {
+  max-width: 500px;
+}
+
+main .main-grid .latest-news .news {
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
 main .main-grid .bg1 {
-  border: 1px solid blue;
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   -ms-grid-column: 1;
@@ -281,7 +295,6 @@ main .main-grid .bg1 {
 }
 
 main .main-grid .bg2 {
-  border: 1px solid blue;
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   -ms-grid-column: 2;
@@ -290,7 +303,6 @@ main .main-grid .bg2 {
 }
 
 main .main-grid .img2 {
-  border: 2px solid orange;
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   -ms-grid-column: 3;
@@ -299,7 +311,6 @@ main .main-grid .img2 {
 }
 
 main .main-grid .info {
-  border: 1px solid blue;
   -ms-grid-row: 4;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
@@ -309,8 +320,30 @@ main .main-grid .info {
   background: #835fa8;
 }
 
+main .main-grid .info .cont {
+  max-width: 400px;
+}
+
+main .main-grid .info .message {
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
 main .main-grid .img3 {
-  border: 1px solid blue;
   grid-area: 4 / 1 / -1 / -1;
+  background-image: url("img/grid3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+main .main-grid .img3 img {
+  visibility: hidden;
+}
+
+footer {
+  max-width: 1550px;
+  background: #1a2124;
 }
 /*# sourceMappingURL=style.css.map */
