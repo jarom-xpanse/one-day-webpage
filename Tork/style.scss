@@ -143,6 +143,7 @@ header {
         
         .card {
             // border: 1px dashed red;
+            padding-bottom: 3.5em;
             .heading {
                 font-size: 1.5rem;
                 // border: 1px solid red;
@@ -156,13 +157,15 @@ header {
                 // border: 1px solid red;
                 font-size: 1em;
             }
-            button {
+            .button {
                 background: #3dd2ae;
                 padding: 0.5em 1.3em;
-                // border-radius: 1em;
+                border-radius: 1em;
                 display: inline-block;
                 margin-top: 1em;
                 color: white;
+                left: 0;
+                bottom: 0;
             }
         }
     }
@@ -246,14 +249,19 @@ main {
         .img1 {
             border: 1px solid blue;
             grid-area: 1 / 3 / 2 / 4;
+            background: url('img/grid1.png');
         }
         .vid {
             border: 1px solid blue;
             grid-area: 2 / 2 / 3 / 3;
+            background: url('img/video.png');
+            background-size: cover;
+            background-position: center;
         }
         .latest-news {
             border: 1px solid blue;
             grid-area: 2 / 3 / 3 / 4;
+            background: #835fa8;
         }
         .bg1 {
             border: 1px solid blue;
@@ -267,11 +275,14 @@ main {
         .img2 {
             border: 2px solid orange;
             grid-area: 3 / 3 / 4 / 4;
+            // background: url('img/grid2.png');
+            // background-repeat: no-repeat;
         }
         .info {
             border: 1px solid blue;
             grid-area: 4 / 1 / 5 / 3;
             z-index: 1;
+            background: #835fa8;
         }
         .img3 {
             border: 1px solid blue;
