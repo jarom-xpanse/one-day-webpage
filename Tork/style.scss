@@ -2,6 +2,7 @@ $maxW: 1550px;
 $screen-sm: 640px;
 $screen-md: 768px;
 $screen-lg: 1024px;
+$screen-xl: 1280px;
 
 
 .container {
@@ -294,6 +295,8 @@ main {
         min-height: 500px;
         // border: 1px solid red;
 
+      
+
         
 
         .connectivity {
@@ -327,6 +330,10 @@ main {
             background: url('img/video.png');
             background-size: cover;
             background-position: center;
+            z-index: 1;
+            @media screen and (max-width: $screen-xl ) {
+                grid-area: 2 / 1 / 3 / 3;
+            }
         }
         .latest-news {
             // border: 1px solid blue;
@@ -350,19 +357,29 @@ main {
         .video-description {
             // border: 1px solid blue;
             grid-area: 3 / 2 / 4 / 3;
+            z-index: 1;
+            // border: 1px solid red;
+            background-color: white;
             .cont {
-                max-width: 460px;
+                // max-width: 460px;
+                // border: 1px solid red;
             }
             .details .comments {
                 // border: 1px solid red;
                 transform: translateY(6px);
             }
+           
+            @media screen and (max-width: $screen-xl ) {
+                grid-area: 3 / 1 / 4 / 3;
+            }
         }
         .img2 {
             // border: 2px solid orange;
             grid-area: 3 / 3 / 4 / 4;
-            // background: url('img/grid2.png');
-            // background-repeat: no-repeat;
+            background: url('img/grid2.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
         }
         .info {
             // border: 1px solid blue;
@@ -378,6 +395,9 @@ main {
                 font-weight: 200;
                 margin-top: 5px;
             }
+            @media screen and (max-width: calc(#{$screen-lg} - 1px) ) {
+                // border: 1px solid red;
+            }
         }
         .img3 {
             // border: 1px solid blue;
@@ -389,6 +409,42 @@ main {
                 visibility: hidden;
             }
         }
+    }
+}
+
+#main-grid {
+    @media screen and (max-width: $screen-sm ) {
+        // border: 4px solid blue;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50vw 500px 50vw 1fr 1fr 60vw 1fr 60vw;
+        .img1 {
+            grid-area: 1 / 1 / 2 / -1;
+        }
+        .connectivity {
+            grid-area: 2 / 1 / 3 / -1;
+        }
+        .vid {
+            grid-area: 3 / 1 / 4 / -1;
+        }
+        .latest-news {
+            grid-area: 4 / 1 / 5 / -1;
+        }
+        .video-description {
+            grid-area: 5 / 1 / 6 / -1;
+        }
+        .img2 {
+            grid-area: 6 / 1 / 7 / -1;
+        }
+        .info {
+            grid-area: 7 / 1 / 8 / -1;
+        }
+        .img3 {
+            grid-area: 8 / 1 / 9 / -1;
+        }
+        .bg1 {
+            display: none;
+        }
+
     }
 }
 
