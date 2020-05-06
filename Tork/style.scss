@@ -348,6 +348,20 @@ main {
                 font-weight: 200;
                 margin-top: 5px;
             }
+            .person {
+                display: flex;
+                margin-top: 20px;
+                // border: 1px solid black;
+                .photo {
+                    max-width: 50px;
+                }
+                .name {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 20px;
+                }
+            }
+            
         }
         .bg1 {
             // border: 1px solid blue;
@@ -382,7 +396,7 @@ main {
             background-position: center center;
         }
         .info {
-            // border: 1px solid blue;
+            // border: 3px solid blue;
             grid-area: 4 / 1 / 5 / 3;
             z-index: 1;
             background: #835fa8;
@@ -394,6 +408,19 @@ main {
                 letter-spacing: 1px;
                 font-weight: 200;
                 margin-top: 5px;
+            }
+            .person {
+                display: flex;
+                margin-top: 20px;
+                // border: 1px solid black;
+                .photo {
+                    max-width: 50px;
+                }
+                .name {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 20px;
+                }
             }
             @media screen and (max-width: calc(#{$screen-lg} - 1px) ) {
                 // border: 1px solid red;

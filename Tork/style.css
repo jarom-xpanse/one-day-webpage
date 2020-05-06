@@ -361,6 +361,27 @@ main .main-grid .latest-news .news {
   margin-top: 5px;
 }
 
+main .main-grid .latest-news .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+main .main-grid .latest-news .person .photo {
+  max-width: 50px;
+}
+
+main .main-grid .latest-news .person .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+}
+
 main .main-grid .bg1 {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
@@ -426,6 +447,27 @@ main .main-grid .info .message {
   letter-spacing: 1px;
   font-weight: 200;
   margin-top: 5px;
+}
+
+main .main-grid .info .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+main .main-grid .info .person .photo {
+  max-width: 50px;
+}
+
+main .main-grid .info .person .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
 }
 
 main .main-grid .img3 {
