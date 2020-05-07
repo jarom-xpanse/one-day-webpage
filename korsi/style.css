@@ -1,10 +1,5 @@
-.container {
-  border: 1px solid red;
-}
-
 header {
   max-width: 1400px;
-  border: 1px solid red;
   min-height: 100px;
 }
 
@@ -13,17 +8,12 @@ header .background img {
 }
 
 header .tagline {
-  border: 1px solid red;
   max-width: 450px;
   max-height: 250px;
 }
 
-main .logos img {
-  border: 1px solid red;
-}
-
-main .featured-item .description-cont .buttons {
-  border: 1px solid red;
+main {
+  max-width: 1400px;
 }
 
 main .featured-item .item .number {
