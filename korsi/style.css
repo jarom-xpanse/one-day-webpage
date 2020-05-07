@@ -1,3 +1,7 @@
+.container {
+  border: 1px solid red;
+}
+
 header {
   max-width: 1400px;
   border: 1px solid red;
@@ -8,13 +12,25 @@ header .background img {
   max-height: 650px;
 }
 
-header .container {
-  border: 1px solid red;
-}
-
-header .container .tagline {
+header .tagline {
   border: 1px solid red;
   max-width: 450px;
   max-height: 250px;
+}
+
+main .logos img {
+  border: 1px solid red;
+}
+
+main .featured-item .description-cont .buttons {
+  border: 1px solid red;
+}
+
+main .featured-item .color {
+  border: 1px solid red;
+}
+
+main .featured-item .item .wrapper > * {
+  border: 1px solid red;
 }
 /*# sourceMappingURL=style.css.map */

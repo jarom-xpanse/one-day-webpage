@@ -1,5 +1,10 @@
 $maxW: 1400px;
 
+.container {
+    border: 1px solid red;
+
+}
+
 header {
     max-width: $maxW;
     border: 1px solid red;
@@ -9,21 +14,45 @@ header {
             max-height: 650px;
         }
     }
-    .container {
+    
+    .tagline {
         border: 1px solid red;
-        
+        max-width: 450px;
+        max-height: 250px;
+    }
 
-        .tagline {
+
+
+}
+
+
+main {
+    // for debugging remove after
+    // min-height: 2000px;
+
+    .logos {
+        img {
             border: 1px solid red;
-            max-width: 450px;
-            max-height: 250px;
+        }
+    }
+
+    .featured-item {
+        .description-cont {
+            .buttons {
+                border: 1px solid red;
+            }
+        }
+
+        .color {
+            border: 1px solid red;
+        }
+        .item .wrapper > * {
+            border: 1px solid red;
         }
 
 
-
-
-
     }
+
 
 
 
