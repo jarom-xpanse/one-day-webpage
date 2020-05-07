@@ -44,10 +44,25 @@ main {
         }
 
         .color {
-            border: 1px solid red;
+            
         }
-        .item .wrapper > * {
-            border: 1px solid red;
+        .item  {
+            .wrapper > * {
+                // border: 1px solid red;
+            }
+            .number {
+                flex-basis: 100px;
+            }
+            .picture {
+                flex-grow: 5;
+                img {
+                    width: 800px;
+                }
+            }
+            .color {
+                flex-basis: 100px;
+            }
+
         }
 
 

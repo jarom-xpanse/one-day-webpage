@@ -26,11 +26,23 @@ main .featured-item .description-cont .buttons {
   border: 1px solid red;
 }
 
-main .featured-item .color {
-  border: 1px solid red;
+main .featured-item .item .number {
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
 }
 
-main .featured-item .item .wrapper > * {
-  border: 1px solid red;
+main .featured-item .item .picture {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+main .featured-item .item .picture img {
+  width: 800px;
+}
+
+main .featured-item .item .color {
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
 }
 /*# sourceMappingURL=style.css.map */
