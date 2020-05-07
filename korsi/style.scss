@@ -1,0 +1,30 @@
+$maxW: 1400px;
+
+header {
+    max-width: $maxW;
+    border: 1px solid red;
+    min-height: 100px;
+    .background {
+        img {
+            max-height: 650px;
+        }
+    }
+    .container {
+        border: 1px solid red;
+        
+
+        .tagline {
+            border: 1px solid red;
+            max-width: 450px;
+            max-height: 250px;
+        }
+
+
+
+
+
+    }
+
+
+
+}

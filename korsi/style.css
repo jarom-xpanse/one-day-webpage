@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+header {
+  max-width: 1400px;
+  border: 1px solid red;
+  min-height: 100px;
+}
+
+header .background img {
+  max-height: 650px;
+}
+
+header .container {
+  border: 1px solid red;
+}
+
+header .container .tagline {
+  border: 1px solid red;
+  max-width: 450px;
+  max-height: 250px;
+}
+/*# sourceMappingURL=style.css.map */
