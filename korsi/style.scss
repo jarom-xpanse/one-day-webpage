@@ -53,9 +53,9 @@ main {
 
         .services {
             border: 1px solid blue;
-
+            transform: translateY(5vw);
             .service-card {
-                
+
             }
         }
 
@@ -65,4 +65,18 @@ main {
 
 
 
+}
+
+footer {
+    max-width: $maxW;
+    .subscribe {
+        // border: 1px solid red;
+        .subscribe-form {
+            border: 1px solid red;
+            .input-field {
+                border: 1px dotted red;
+                flex-grow: 1;
+            }
+        }
+    }
 }
