@@ -227,15 +227,6 @@
                             <p class="description pt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique nostrum totam aliquid ex quae voluptatum ipsam aut, odit corrupti itaque delectus in eos! Repellendus, tenetur.</p>
                         </div>
                     </div>
-                    <div class="subscribe">
-                        <h3>Get Various Models to Your <br> Interior space</h3>
-                        <div class="subscribe-info">
-                            <label for="name">Your Name<input type="text" id="name" name="name"></label>
-                            <label for="email">Your Email<input type="email" id="email" name="email"></label>
-                            <label for="phone">Phone Number<input type="tel" id="phone" name="phone"></label>
-                            <button>Subscribe Now</button>
-                        </div>
-                    </div>
                 </div>
             </div>
             
@@ -244,39 +235,43 @@
 
 
     
-<footer class="mx-auto mt-32">
+<footer class="mx-auto mt-32 container">
     <div class="subscribe">
         <h2 class="heading text-2xl">Get Various Models to Your Interior space</h2>
-        <form action="" class="subscribe-form flex justify-between">
-            <div class="input-field">
-                <label for="name">Your Name<br></label>
+        <form action="" class="subscribe-form flex justify-between mt-8 border-b pb-16">
+            <div class="input-field m-2 flex flex-col">
+                <label for="name">Your Name</label>
                 <input type="text" id="name" class="border p-2 text-xs">
             </div>
-            <div class="input-field">
-                <label for="email">Your Email<br></label>
+            <div class="input-field m-2 flex flex-col">
+                <label for="email">Your Email</label>
                 <input type="email" id="email" class="border p-2 text-xs">
             </div>
-            <div class="input-field">
-                <label for="number">Phone Number<br></label>
+            <div class="input-field m-2 flex flex-col">
+                <label for="number">Phone Number</label>
                 <input type="number" id="number" class="border p-2 text-xs">
             </div>
-            <input type="submit" value="Submit">
+            <div class="submit-cont flex items-end pb-2">
+                <div>
+                    <input type="submit" value="Subscribe Now" class="submit px-4 py-2 bg-yellow-600 text-white">
+                </div>
+            </div>
         </form>
 
     </div>
 
 
-   <div class="copyright">
+   <div class="copyright flex justify-between mt-4 text-gray-600 text-sm pb-16">
     <div>
         <p>copyRight@2009-2019 K-orsi Furniture. All Right Reserved</p>
     </div>
     <div>
-        <ul>
-            <li>FAQ</li>
-            <li>Returns</li>
-            <li>Shipping</li>
-            <li>Privacy</li>
-            <li>Terms of Service</li>
+        <ul class="flex">
+            <li class="px-2">FAQ</li>
+            <li class="px-2">Returns</li>
+            <li class="px-2">Shipping</li>
+            <li class="px-2">Privacy</li>
+            <li class="px-2">Terms of Service</li>
         </ul>
     </div>
    </div>
