@@ -33,7 +33,11 @@ main {
             .color {
                 flex-basis: 100px;
             }
-
+            .line {
+                height: 250px;
+                width: 1px;
+                transform: translateX(-5px);
+            }
         }
     }
     .all-products {

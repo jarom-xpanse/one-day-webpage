@@ -36,6 +36,13 @@ main .featured-item .item .color {
       flex-basis: 100px;
 }
 
+main .featured-item .item .line {
+  height: 250px;
+  width: 1px;
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
 main .about .bg-blue {
   height: 0;
   background-image: url("img/bg-blue.png");
