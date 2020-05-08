@@ -37,7 +37,29 @@ main {
         }
     }
     .all-products {
-        
+
+    }
+    .about {
+        .bg-blue {
+            height: 0;
+            background-image: url("img/bg-blue.png");
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            padding-top: 34%;
+        }
+        .absolute > * {
+            border: 1px dashed red;
+        }
+
+        .services {
+            border: 1px solid blue;
+
+            .service-card {
+                
+            }
+        }
+
+
     }
 
 

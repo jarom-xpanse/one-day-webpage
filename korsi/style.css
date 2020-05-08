@@ -35,4 +35,20 @@ main .featured-item .item .color {
   -ms-flex-preferred-size: 100px;
       flex-basis: 100px;
 }
+
+main .about .bg-blue {
+  height: 0;
+  background-image: url("img/bg-blue.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  padding-top: 34%;
+}
+
+main .about .absolute > * {
+  border: 1px dashed red;
+}
+
+main .about .services {
+  border: 1px solid blue;
+}
 /*# sourceMappingURL=style.css.map */
